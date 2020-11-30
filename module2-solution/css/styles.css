@@ -1,0 +1,100 @@
+
+header {
+	margin: 50px 0 70px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	margin: 0 30px 0 30px;
+}
+
+.container-1, .container-2, .container-3 {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	padding: 10px;
+
+}
+
+
+.menu {
+	
+	width: 100%;
+	background-color: gray;
+	border: 1px solid black;
+
+
+}
+
+.variant {
+
+	font-size: 130%;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 10px;
+	width: 30%;
+	position: relative;
+		right: 0;
+		top: 0;
+	float: right;
+	border: 1px solid black;
+
+}
+
+p {
+	width: 100%;
+	padding: 15px;
+	clear: both;
+}
+
+
+@media (min-width: 992px) {
+	.container-1, .container-2, .container-3 {
+		width: 33.33%;
+		float: left;
+	}
+	.menu {
+		width: 100%;
+
+
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container-1, .container-2 {
+		width: 50%;
+		float: left;
+	}
+	.container-3 {
+		width: 100%;
+		float: left;
+	}
+	.menu {
+		width: 100%;
+
+	}
+
+
+}
+
+@media (max-width: 767px) {
+	.container-1, .container-2, .container-3 {
+		width: 100%;
+		float: left;
+	}
+	.menu {
+		width: 100%;
+
+	}
+
+}
